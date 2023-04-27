@@ -1,0 +1,4 @@
+apache-beam==2.42.0
+apache-beam[gcp]==2.42.0
+geopandas
+shapely<2
