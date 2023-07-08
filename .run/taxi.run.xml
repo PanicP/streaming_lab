@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="taxi" type="PythonConfigurationType" factoryName="Python">
-    <module name="taxi-beam-python" />
+    <module name="pull-data-from-bigquery" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
     <envs>
@@ -17,7 +17,7 @@
     <option name="SCRIPT_NAME" value="taxi.py" />
     <option name="PARAMETERS" value="--requirements_file requirements.txt --runner DirectRunner --project &lt;YOU-PROJECT-ID&gt; --temp_location gs://&lt;YOUR-BUCKET&gt;/tmp/ --region us-east1 --streaming --allow_unsafe_triggers" />
     <option name="SHOW_COMMAND_LINE" value="false" />
-    <option name="EMULATE_TERMINAL" value="false" />
+    <option name="EMULATE_TERMINAL" value="true" />
     <option name="MODULE_MODE" value="false" />
     <option name="REDIRECT_INPUT" value="false" />
     <option name="INPUT_FILE" value="" />
