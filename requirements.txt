@@ -1,4 +1,13 @@
 apache-beam==2.42.0
 apache-beam[gcp]==2.42.0
-geopandas
+geopandas~=0.13.2
 shapely<2
+
+DateTime~=5.1
+pip~=23.1.2
+attrs~=23.1.0
+wheel~=0.40.0
+setuptools~=67.7.2
+packaging~=21.3
+zipp~=3.15.0
+datasketch~=1.5.9
